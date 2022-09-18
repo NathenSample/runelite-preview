@@ -7,7 +7,7 @@ namespace EveOPreview.Services.Implementation
 	sealed class ProcessMonitor : IProcessMonitor
 	{
 		#region Private constants
-		private const string DEFAULT_PROCESS_NAME = "ExeFile";
+		private const string DEFAULT_PROCESS_NAME = "RuneLite";
 		private const string CURRENT_PROCESS_NAME = "EVE-O Preview";
 		#endregion
 

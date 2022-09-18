@@ -220,7 +220,7 @@ namespace EveOPreview.View
 			this.MinimizeInactiveClientsCheckBox.Name = "MinimizeInactiveClientsCheckBox";
 			this.MinimizeInactiveClientsCheckBox.Size = new System.Drawing.Size(163, 17);
 			this.MinimizeInactiveClientsCheckBox.TabIndex = 24;
-			this.MinimizeInactiveClientsCheckBox.Text = "Minimize inactive EVE clients";
+			this.MinimizeInactiveClientsCheckBox.Text = "Minimize inactive Runelite clients";
 			this.MinimizeInactiveClientsCheckBox.UseVisualStyleBackColor = true;
 			this.MinimizeInactiveClientsCheckBox.CheckedChanged += new System.EventHandler(this.OptionChanged_Handler);
 			// 
@@ -244,7 +244,7 @@ namespace EveOPreview.View
 			this.HideActiveClientThumbnailCheckBox.Name = "HideActiveClientThumbnailCheckBox";
 			this.HideActiveClientThumbnailCheckBox.Size = new System.Drawing.Size(184, 17);
 			this.HideActiveClientThumbnailCheckBox.TabIndex = 20;
-			this.HideActiveClientThumbnailCheckBox.Text = "Hide preview of active EVE client";
+			this.HideActiveClientThumbnailCheckBox.Text = "Hide preview of active Runelite client";
 			this.HideActiveClientThumbnailCheckBox.UseVisualStyleBackColor = true;
 			this.HideActiveClientThumbnailCheckBox.CheckedChanged += new System.EventHandler(this.OptionChanged_Handler);
 			// 
@@ -271,7 +271,7 @@ namespace EveOPreview.View
 			this.HideThumbnailsOnLostFocusCheckBox.Name = "HideThumbnailsOnLostFocusCheckBox";
 			this.HideThumbnailsOnLostFocusCheckBox.Size = new System.Drawing.Size(234, 17);
 			this.HideThumbnailsOnLostFocusCheckBox.TabIndex = 22;
-			this.HideThumbnailsOnLostFocusCheckBox.Text = "Hide previews when EVE client is not active";
+			this.HideThumbnailsOnLostFocusCheckBox.Text = "Hide previews when Runelite client is not active";
 			this.HideThumbnailsOnLostFocusCheckBox.UseVisualStyleBackColor = true;
 			this.HideThumbnailsOnLostFocusCheckBox.CheckedChanged += new System.EventHandler(this.OptionChanged_Handler);
 			// 
@@ -284,7 +284,7 @@ namespace EveOPreview.View
 			this.EnablePerClientThumbnailsLayoutsCheckBox.Name = "EnablePerClientThumbnailsLayoutsCheckBox";
 			this.EnablePerClientThumbnailsLayoutsCheckBox.Size = new System.Drawing.Size(185, 17);
 			this.EnablePerClientThumbnailsLayoutsCheckBox.TabIndex = 23;
-			this.EnablePerClientThumbnailsLayoutsCheckBox.Text = "Unique layout for each EVE client";
+			this.EnablePerClientThumbnailsLayoutsCheckBox.Text = "Unique layout for each Runelite client";
 			this.EnablePerClientThumbnailsLayoutsCheckBox.UseVisualStyleBackColor = true;
 			this.EnablePerClientThumbnailsLayoutsCheckBox.CheckedChanged += new System.EventHandler(this.OptionChanged_Handler);
 			// 

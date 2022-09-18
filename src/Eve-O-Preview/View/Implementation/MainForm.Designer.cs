@@ -831,6 +831,16 @@ namespace EveOPreview.View
 			DescriptionLabel.TabIndex = 5;
 			DescriptionLabel.Text = resources.GetString("DescriptionLabel.Text");
 			// 
+			// DocumentationLinkLabel
+			// 
+			DocumentationLinkLabel.AutoSize = true;
+			DocumentationLinkLabel.Location = new System.Drawing.Point(0, 163);
+			DocumentationLinkLabel.Name = "DocumentationLinkLabel";
+			DocumentationLinkLabel.Padding = new System.Windows.Forms.Padding(8, 3, 8, 3);
+			DocumentationLinkLabel.Size = new System.Drawing.Size(222, 19);
+			DocumentationLinkLabel.TabIndex = 6;
+			DocumentationLinkLabel.Text = "You can find the original repo here";
+			// 
 			// CreditMaintLabel
 			// 
 			CreditMaintLabel.AutoSize = true;
@@ -839,11 +849,11 @@ namespace EveOPreview.View
 			CreditMaintLabel.Padding = new System.Windows.Forms.Padding(8, 3, 8, 3);
 			CreditMaintLabel.Size = new System.Drawing.Size(258, 19);
 			CreditMaintLabel.TabIndex = 7;
-			CreditMaintLabel.Text = "Credit to previous maintainer: Phrynohyas Tig-Rah";
-			// 
-			// MainForm
-			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            CreditMaintLabel.Text = "Modified from EVE-O Preview by : EveOPlus";
+            // 
+            // MainForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.SystemColors.Control;
 			this.ClientSize = new System.Drawing.Size(390, 218);

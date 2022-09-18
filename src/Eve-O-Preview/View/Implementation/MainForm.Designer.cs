@@ -158,7 +158,7 @@ namespace EveOPreview.View
 			TitleMenuItem.Enabled = false;
 			TitleMenuItem.Name = "TitleMenuItem";
 			TitleMenuItem.Size = new System.Drawing.Size(151, 22);
-			TitleMenuItem.Text = "EVE-O Preview";
+			TitleMenuItem.Text = "Runelite Preview";
 			// 
 			// SeparatorMenuItem
 			// 
@@ -787,7 +787,7 @@ namespace EveOPreview.View
 			NameLabel.Name = "NameLabel";
 			NameLabel.Size = new System.Drawing.Size(130, 20);
 			NameLabel.TabIndex = 3;
-			NameLabel.Text = "EVE-O Preview";
+			NameLabel.Text = "Runelite Preview";
 			// 
 			// DocumentationLink
 			// 
@@ -806,7 +806,7 @@ namespace EveOPreview.View
 			// 
 			this.NotifyIcon.ContextMenuStrip = this.TrayMenu;
 			this.NotifyIcon.Icon = ((System.Drawing.Icon)(resources.GetObject("NotifyIcon.Icon")));
-			this.NotifyIcon.Text = "EVE-O Preview";
+			this.NotifyIcon.Text = "Runelite Preview";
 			this.NotifyIcon.Visible = true;
 			this.NotifyIcon.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.RestoreMainForm_Handler);
 			// 
@@ -831,16 +831,6 @@ namespace EveOPreview.View
 			DescriptionLabel.TabIndex = 5;
 			DescriptionLabel.Text = resources.GetString("DescriptionLabel.Text");
 			// 
-			// DocumentationLinkLabel
-			// 
-			DocumentationLinkLabel.AutoSize = true;
-			DocumentationLinkLabel.Location = new System.Drawing.Point(0, 163);
-			DocumentationLinkLabel.Name = "DocumentationLinkLabel";
-			DocumentationLinkLabel.Padding = new System.Windows.Forms.Padding(8, 3, 8, 3);
-			DocumentationLinkLabel.Size = new System.Drawing.Size(222, 19);
-			DocumentationLinkLabel.TabIndex = 6;
-			DocumentationLinkLabel.Text = "For more information visit the forum thread:";
-			// 
 			// CreditMaintLabel
 			// 
 			CreditMaintLabel.AutoSize = true;
@@ -863,7 +853,7 @@ namespace EveOPreview.View
 			this.Margin = new System.Windows.Forms.Padding(0);
 			this.MaximizeBox = false;
 			this.Name = "MainForm";
-			this.Text = "EVE-O Preview";
+			this.Text = "Runelite Preview";
 			this.TopMost = true;
 			this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainFormClosing_Handler);
 			this.Load += new System.EventHandler(this.MainFormResize_Handler);

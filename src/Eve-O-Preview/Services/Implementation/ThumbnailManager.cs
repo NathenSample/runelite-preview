@@ -502,7 +502,7 @@ namespace EveOPreview.Services
 			return false;
 		}
 
-		// Check whether the currently active window belongs to EVE-O Preview itself
+		// Check whether the currently active window belongs to Runelite Preview itself
 		private bool IsMainWindowActive(IntPtr windowHandle)
 		{
 			return (this._processMonitor.GetMainProcess().Handle == windowHandle);

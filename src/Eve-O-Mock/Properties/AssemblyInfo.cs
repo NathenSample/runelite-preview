@@ -3,11 +3,11 @@ using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Windows;
 
-[assembly: AssemblyTitle("EVE Online mock executable for the EVE-O Preview project")]
+[assembly: AssemblyTitle("EVE Online mock executable for the Runelite Preview project")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("EVE-O Mock")]
+[assembly: AssemblyProduct("Runelite Mock")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

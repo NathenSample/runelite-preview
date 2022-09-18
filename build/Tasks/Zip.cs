@@ -13,8 +13,8 @@ namespace Build.Tasks
 				context.CreateDirectory(Configuration.PublishFolder);
 			}
 
-			context.Zip(Configuration.BinFolder, Configuration.PublishFolder + "/EVE-O Preview.zip",
-				new[] { Configuration.BinFolder + "/EVE-O Preview.exe", Configuration.BinFolder + "/readme.pdf" });
+			context.Zip(Configuration.BinFolder, Configuration.PublishFolder + "/Runelite Preview.zip",
+				new[] { Configuration.BinFolder + "/Runelite Preview.exe", Configuration.BinFolder + "/readme.pdf" });
 		}
 	}
 }

@@ -8,7 +8,7 @@ namespace EveOPreview.Services.Implementation
 	{
 		#region Private constants
 		private const string DEFAULT_PROCESS_NAME = "RuneLite";
-		private const string CURRENT_PROCESS_NAME = "EVE-O Preview";
+		private const string CURRENT_PROCESS_NAME = "Runelite Preview";
 		#endregion
 
 		#region Private fields
